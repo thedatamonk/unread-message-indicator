@@ -6,14 +6,12 @@ Similar to how the WhatsApp icon shows a count of unique unread chat windows abo
 
 ## The 2 approaches
 1. **On the fly computation**
-    
-    *Description*
 
-2. **Lazy computation**
+   As soon as a new message, arrives we have to update the unread message count for the given user.
 
-    *Description*
+3. **Lazy computation**
+
+   As the name implies, we can "lazily" compute the unread message count for the given user.
 
 ## Upcoming...
-1. Nice UI built using React and TailwindCSS to demo this.
-2. Load testing framework
-3. Functionality testing framework
+1. Load testing framework using artillery.
